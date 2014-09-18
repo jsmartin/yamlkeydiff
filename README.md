@@ -15,16 +15,16 @@ optional arguments:
 Example:
 
 ```
-./yamlkeydiff.py new_vars old_vars
---- old_vars
+./yamlkeydiff.py old_vars new_vars
+--- new_vars
 
-+++ new_vars
++++ old_vars
 
-@@ -1,4 +1,3 @@
+@@ -1,3 +1,4 @@
 
  a
--b
--c
++b
++c
  d
-+z
+-z
 ```
