@@ -1,4 +1,21 @@
-	./yamlkeydiff.py ./new_vars old_vars
+Compares keys in 2 yaml files
+
+```
+usage: yamlkeydiff.py [-h] new_vars_file old_vars_file
+
+positional arguments:
+  new_vars_file
+  old_vars_file
+
+optional arguments:
+  -h, --help     show this help message and exit
+```
+
+
+Example:
+
+
+	./yamlkeydiff.py new_vars old_vars
 	--- old_vars
 	
 	+++ ./new_vars
